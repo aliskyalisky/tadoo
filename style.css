@@ -635,14 +635,14 @@ label {
     position: absolute;
     height: 100px;
     width: 300px;
-    bottom: 100px;
+    bottom: 200px;
     right: 10px;
     font-size: 12px;
   }
 
   .optable svg {
     position: absolute;
-    bottom: 60px;
+    bottom: 160px;
     right: 60px;
     opacity: 0;
     animation-name: fadein;
@@ -661,4 +661,15 @@ label {
   body {
     overflow: auto;
   }
+
+  .addbtn {
+    
+    bottom: 120px;
+    right: 20px;
+  }
+
+  .sbbot button {
+    margin-bottom: 125px;
+  }
+
 }
