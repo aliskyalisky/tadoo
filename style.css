@@ -657,4 +657,8 @@ label {
     top: 10px;
     right: 10px;
   }
+
+  body {
+    overflow: auto;
+  }
 }
