@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tadoo</title>
+  <script src="./main.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="content">
+
+    <div class="nightmode">
+        <svg style="width:26px;height:26px" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M22,10.28C21.74,10.3 21.5,10.31 21.26,10.31C19.32,10.31 17.39,9.57 15.91,8.09C14.25,6.44 13.5,4.19 13.72,2C13.77,1.53 13.22,1 12.71,1C12.57,1 12.44,1.04 12.32,1.12C12,1.36 11.66,1.64 11.36,1.94C9.05,4.24 8.55,7.66 9.84,10.46C8.31,11.11 7.13,12.43 6.69,14.06L6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22H19A3,3 0 0,0 22,19A3,3 0 0,0 19,16C18.42,16 17.88,16.16 17.42,16.45L17.5,15.5C17.5,15.28 17.5,15.05 17.46,14.83C19.14,14.67 20.77,13.94 22.06,12.64C22.38,12.34 22.64,12 22.88,11.68C23.27,11.13 22.65,10.28 22.04,10.28M19,18A1,1 0 0,1 20,19A1,1 0 0,1 19,20H6A2,2 0 0,1 4,18A2,2 0 0,1 6,16H8.5V15.5C8.5,13.94 9.53,12.64 10.94,12.18C11.1,12.13 11.26,12.09 11.43,12.06C11.61,12.03 11.8,12 12,12C12.23,12 12.45,12.03 12.66,12.07C12.73,12.08 12.8,12.1 12.87,12.13C13,12.16 13.15,12.2 13.28,12.25C13.36,12.28 13.44,12.32 13.5,12.36C13.63,12.41 13.74,12.47 13.84,12.54C13.92,12.59 14,12.64 14.07,12.7C14.17,12.77 14.25,12.84 14.34,12.92C14.41,13 14.5,13.05 14.55,13.12C14.63,13.2 14.69,13.29 14.76,13.37C14.82,13.45 14.89,13.53 14.94,13.62C15,13.71 15.04,13.8 15.09,13.9C15.14,14 15.2,14.08 15.24,14.18C15.41,14.59 15.5,15.03 15.5,15.5V18M16.83,12.86C15.9,11.16 14.08,10 12,10H11.87C11.41,9.19 11.14,8.26 11.14,7.29C11.14,6.31 11.39,5.37 11.86,4.55C12.21,6.41 13.12,8.14 14.5,9.5C15.86,10.88 17.58,11.79 19.45,12.14C18.66,12.6 17.76,12.84 16.83,12.86Z" />
+      </svg>
+      <div class="nightmodeswitch">
+        <button class="nightmodebtn" type="button">
+            <svg class="nightmodeball" style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+        </button>
+    </div>
+    </div>
+
+      <div class="duebox sidebarleft closed">
+        <div class="duenotification">
+          <p>Under construction!</p>
+        </div>
+
+        <svg style="width:50px;height:50px" viewBox="0 0 24 24">
+          <path fill="#ffffff" d="M10 6.2C10 4.3 8.8 2.6 7 2V5.7H4V2C2.2 2.6 1 4.3 1 6.2C1 8.1 2.2 9.8 4 10.4V21.4C4 21.8 4.2 22 4.5 22H6.5C6.8 22 7 21.8 7 21.5V10.5C8.8 9.9 10 8.2 10 6.2M16 8C16 8 15.9 8 16 8C12.1 8.1 9 11.2 9 15C9 18.9 12.1 22 16 22S23 18.9 23 15 19.9 8 16 8M16 20C13.2 20 11 17.8 11 15S13.2 10 16 10 21 12.2 21 15 18.8 20 16 20M15 11V16L18.6 18.2L19.4 17L16.5 15.3V11H15Z" />
+      </svg>
+      </div>
+
+      <div class="sidebar closed">
+
+          <div class="sbtop">
+            <h2>T</h2><h2>A</h2><h2>D</h2><h2>O</h2><h2>O</h2> 
+          </div>
+
+          <div class="sbmid">
+            <ul class="sbmenu">
+
+              <li><button class="sbbtn closed duebtn" type="button">
+                <svg style="width:20px;height:20px" viewBox="0 0 24 24">
+                  <path fill="#ffffff" d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" />
+              </svg>
+                <p class="sbp closed">Due</p>
+              </button></li>
+
+              <li><button class="sbbtn closed" type="button">
+                <svg style="width:20px;height:20px" viewBox="0 0 24 24">
+                  <path fill="#ffffff" d="M18,2A2,2 0 0,1 20,4V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2H18M18,4H13V12L10.5,9.75L8,12V4H6V20H18V4Z" />
+              </svg>
+                <p class="sbp closed">Projects</p>
+              </button></li>
+
+              <li><button class="sbbtn closed" type="button">
+                <svg style="width:20px;height:20px" viewBox="0 0 24 24">
+                  <path fill="#ffffff" d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" />
+              </svg>
+                <p class="sbp closed">History</p>
+              </button></li>
+
+            </ul>
+          </div>
+
+          <div class="sbbot">
+          <button type="button" class="menubtn">
+            <div class="line1 closed"></div>
+            <div class="line2 closed"></div>
+          </button>
+          </div>
+
+      </div>
+      <div class="optableholder">
+        <div class="optable">
+            <div class="startmessage">
+              <h1>Looks pretty empty,</h1>
+              <h2>add a project to get started!</h2>
+            </div>
+            
+            <svg style="width:70px;height:70px" viewBox="0 0 24 24">
+              <path fill="#fb593c" d="M14.89,12.06V7.11H18.31V18.31H7.11V14.89H12.06L5.69,8.5L8.5,5.69L14.89,12.06Z" />
+          </svg>
+
+        </div>
+      </div>
+
+      <div class="projectinput closed">
+        <h3>Add a project</h3>
+        <form action="#" class="projectinputform">
+            <div class="inputbox">
+                <label for="projecttitle">Title</label>
+                <input type="text" id="projecttitle"
+                name="projecttitle" required>
+            </div>
+
+            <div class="inputbox taskinput">
+                <label for="task">Tasks</label>
+                <input type="text" id="task"
+                name="task" maxlength="25">
+                <input type="text" id="task"
+                name="task" maxlength="25">
+                <input type="text" id="task"
+                name="task" maxlength="25">
+                
+               
+            </div>
+
+            <button class="moretasks" type="button">+</button>
+
+            <div class="inputbox">
+                <label for="dueinput">Due</label>
+                <input type="date" id="dueinput"
+                name="dueinput" required>
+            </div>
+
+        </form>
+        <div class="reqalert">
+          <p class="requirealert"></p>
+        </div>
+        <button class="submit" type="button">Add</button>
+    </div>
+
+      <button class="addbtn" type="button"><svg style="width:30px;height:30px" viewBox="0 0 24 24">
+        <path fill="#fafafa" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+    </svg></button>
+  </div>
+</body>
+</html>
